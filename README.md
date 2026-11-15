@@ -1,17 +1,47 @@
-# microx_app
+# MicroX — Team & Community App
 
-A new Flutter project.
+Flutter implementation of the MicroX website's Team and Community pages.
 
-## Getting Started
+Developed by Malaeka Jannat as part of the MicroX internship.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Team member profiles with images
+- Community event cards
+- Navigation between Team and Community screens
+- External links for events, careers, contact and Team Portal
+- Reusable banners, cards and footer widgets
+- Portrait and landscape layouts
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Team
+![Team overview](screenshots/team-top.png)
+![Team member card](screenshots/team-card.png)
+
+### Community
+![Community overview](screenshots/community-top.png)
+![Community events](screenshots/community-events.png)
+
+## Run the app
+
+flutter pub get
+flutter run
+
+## Checks
+
+- Flutter analyzer passed.
+- Team screen widget test passed.
+- Navigation and event links manually checked on Android emulator.
+
+## Android APK
+
+The ARM64 APK is provided separately with the submission.
+
+To build APKs:
+flutter build apk --release --split-per-abi
+
+## Scope
+
+This project implements the Team and Community screens.
+Other website sections open externally in the browser.
